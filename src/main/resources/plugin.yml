@@ -1,0 +1,15 @@
+name: PolyTrails
+version: "${project.version}"
+authors: [Hyperpony, CC007]
+main: com.github.cc007.polytrails.PolyTrails
+description: >
+        dummy description
+commands:
+  trail:
+    description: Allows you to set your trail.
+    permission: polytrails.set
+    aliases: []
+permissions:
+  polytrails.set:
+    description: Allows you to set your trail.
+    default: true
